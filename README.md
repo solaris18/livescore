@@ -32,7 +32,7 @@ $('#container-test').liveScore({
 });
 ```
 
-For complete example, see source on [https://github.com/solaris18/wikusamacup/tree/gh-pages](https://github.com/solaris18/wikusamacup/tree/gh-pages).
+For complete example, see source on [https://github.com/solaris18/liveScore/tree/gh-pages](https://github.com/solaris18/liveScore/tree/gh-pages).
 
 ---
 
