@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Example</title>
+
+    <link rel='stylesheet' href='liveScore.css'>
+
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='liveScore.js'></script>
+    <script type='text/javascript'>
+      $(function () {
+        $('#container-test').liveScore({
+          title: 'Test !',
+          data: [{
+            players: ['XIX Family', 'Syndicate 15'],
+            time: ['18/10/13', '08.30'],
+            currentScore: [3, 2]
+          }, {
+            players: ['SPBU 17', 'Solaris 18'],
+            time: ['18/10/13', '09.00'],
+            currentScore: [0, 0]
+          }, {
+            players: ['XIX Family', 'Syndicate 15'],
+            time: ['18/10/13', '08.30'],
+            currentScore: [3, 2]
+          }, {
+            players: ['SPBU 17', 'Solaris 18'],
+            time: ['18/10/13', '09.00'],
+            currentScore: [0, 0]
+          }]
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id='container-test' style='margin: 0 auto; width: 365px; height: 435px;'></div>
+  </body>
+</html>
