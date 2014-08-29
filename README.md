@@ -11,9 +11,11 @@ Demo : http://solaris18.github.io/liveScore/
 
 Usage :
 
-First of all, you need font named [`Bebas.ttf`](http://www.dafont.com/bebas.font) to use this plugin.
+First of all, you need to include these assets :
 
-You need `jQuery` library too, because what ? because this is jquery plugin :v
+- [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/get-started/) css
+- [`Bebas.ttf`](http://www.dafont.com/bebas.font) font
+- [`jQuery`](http://jquery.com/download/) js
 
 After that, import both `liveScore.css` and `liveScore.js`.
 

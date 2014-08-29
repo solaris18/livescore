@@ -83,8 +83,9 @@ jQuery.fn.liveScore = function (config) {
 
       $twitter = jQuery('<button />');
       $twitter.addClass('ls-row-twitter');
-      $twitter.html('<');
       $twitter.appendTo($row);
+
+      $('<i />').addClass('fa fa-twitter').appendTo($twitter);
 
       if (i + 1 == config.data.length) {
         $row.addClass('ls-row-last');
