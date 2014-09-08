@@ -93,6 +93,15 @@ jQuery.fn.liveScore = function (config) {
 
       rows.push($row);
     }
+
+    if (config.data.length == 0) {
+      $row = jQuery('<div />');
+      $row.addClass('ls-row');
+      $row.addClass('ls-row-last');
+      $row.addClass('ls-row-empty');
+      $row.html('no match');
+      $row.appendTo($content);
+    }
   }
 
   renderLayout();
