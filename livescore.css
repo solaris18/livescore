@@ -1,7 +1,12 @@
 .ls-container {
   background-color: #f1f1f1; }
   .ls-container, .ls-container:before, .ls-container:after, .ls-container *, .ls-container *:before, .ls-container *:after {
-    box-sizing: border-box;
+    box-sizing: border-box; }
+  .ls-container .ls-content .ls-row .ls-row-date,
+  .ls-container .ls-content .ls-row .ls-row-time,
+  .ls-container .ls-content .ls-row .ls-row-queue,
+  .ls-container .ls-content .ls-row .ls-row-match .ls-row-player,
+  .ls-container .ls-content .ls-row .ls-row-match .ls-row-score {
     font-family: "Bebas"; }
   .ls-container .clear {
     clear: both; }
@@ -62,7 +67,7 @@
         background-color: #3698db;
         border-radius: 5px;
         font-size: 17px;
-        color: white;
+        color: #fff;
         padding: 6px 16px; }
         .ls-container .ls-content .ls-row .ls-row-match:before {
           right: 100%;
@@ -128,7 +133,7 @@
         border: none;
         border-radius: 5px;
         font-size: 17px;
-        color: white; }
+        color: #fff; }
         .ls-container .ls-content .ls-row .ls-row-twitter:before {
           content: " ";
           position: absolute;
@@ -138,7 +143,7 @@
           bottom: 0px;
           width: 4px; }
         .ls-container .ls-content .ls-row .ls-row-twitter:hover {
-          background-color: #69b8e7; }
+          background-color: #69B8E7; }
     .ls-container .ls-content .ls-row-last {
       height: 69px;
       overflow: hidden; }
@@ -146,3 +151,5 @@
       top: 155px;
       font-size: 29px;
       opacity: 0.1; }
+
+/*# sourceMappingURL=livescore.css.map */
