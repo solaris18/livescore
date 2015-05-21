@@ -2,6 +2,7 @@
   background-color: #f1f1f1; }
   .ls-container, .ls-container:before, .ls-container:after, .ls-container *, .ls-container *:before, .ls-container *:after {
     box-sizing: border-box; }
+  .ls-container .ls-header h3,
   .ls-container .ls-content .ls-row .ls-row-date,
   .ls-container .ls-content .ls-row .ls-row-time,
   .ls-container .ls-content .ls-row .ls-row-queue,
