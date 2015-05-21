@@ -1,11 +1,11 @@
-liveScore
+livescore
 =========
 
 jQuery plugin for live score of a match
 
 ![preview](http://i62.tinypic.com/mkj2pf.png)
 
-Demo : http://solaris18.github.io/liveScore/
+Demo : http://solaris18.github.io/livescore/
 
 ---
 
@@ -17,12 +17,12 @@ First of all, you need to include these assets :
 - [`Bebas.ttf`](http://www.dafont.com/bebas.font) font
 - [`jQuery`](http://jquery.com/download/) js
 
-After that, import both `liveScore.css` and `liveScore.js`.
+After that, import both `livescore.css` and `livescore.js`.
 
 Here is simple example how to implement:
 
 ```js
-$('#container-test').liveScore({
+$('#container-test').livescore({
   title: 'Futsal Match',
   data: [{
     players: ['XIX Family', 'Syndicate 15'],
@@ -32,7 +32,7 @@ $('#container-test').liveScore({
 });
 ```
 
-For complete example, see source on [https://github.com/solaris18/liveScore/tree/gh-pages](https://github.com/solaris18/liveScore/tree/gh-pages).
+For complete example, see source on [https://github.com/solaris18/livescore/tree/gh-pages](https://github.com/solaris18/livescore/tree/gh-pages).
 
 ---
 
