@@ -4,23 +4,30 @@
     <meta charset="utf-8">
     <title>Example</title>
 
-    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="liveScore.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="livescore.css">
 
     <style>
       @font-face {
         font-family: "Bebas";
-        src: url("BEBAS.TTF") format("truetype");
+        src: url("BEBAS.TTF") forjmat("truetype");
         font-weight: normal;
         font-style: normal; 
       }
+
+      #container-test {
+        margin: 0 auto;
+        width: 365px;
+        height: 435px;
+      }
     </style>
 
-    <script src="jquery-2.1.1.min.js"></script>
-    <script src="liveScore.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="livescore.js"></script>
+    
     <script type="text/javascript">
       $(function () {
-        $("#container-test").liveScore({
+        $("#container-test").livescore({
           title: "Futsal Match",
           data: [{
             players: ["XIX Family", "Syndicate 15"],
@@ -44,6 +51,6 @@
     </script>
   </head>
   <body>
-    <div id="container-test" style="margin: 0 auto; width: 365px; height: 435px;"></div>
+    <div id="container-test"></div>
   </body>
 </html>

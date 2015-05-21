@@ -1,4 +1,4 @@
-jQuery.fn.liveScore = function (config) {
+jQuery.fn.livescore = function (config) {
   var $this = this,
   $header,
   $headerTitle,
