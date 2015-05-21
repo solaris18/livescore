@@ -3,7 +3,7 @@ livescore
 
 jQuery plugin for live score of a match
 
-![preview](http://i62.tinypic.com/mkj2pf.png)
+![preview](http://oi60.tinypic.com/a0cgnk.jpg)
 
 Demo : http://solaris18.github.io/livescore/
 
